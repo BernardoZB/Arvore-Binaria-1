@@ -52,7 +52,8 @@ class Program {
           root.Print();
           Console.Write("\nAchar: ");
           input = Console.ReadLine();
-          root.Find(int.Parse(input));
+          Console.WriteLine(root.Find(int.Parse(input)) + "\n \n");
+          
           break;
         case 4:
           continuar = false;
