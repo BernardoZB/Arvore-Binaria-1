@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/runner/Arvore-Binaria-Comentada/main.csproj": {}
+    "/home/runner/Arvore-Binaria-1/main.csproj": {}
   },
   "projects": {
-    "/home/runner/Arvore-Binaria-Comentada/main.csproj": {
+    "/home/runner/Arvore-Binaria-1/main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/Arvore-Binaria-Comentada/main.csproj",
+        "projectUniqueName": "/home/runner/Arvore-Binaria-1/main.csproj",
         "projectName": "main",
-        "projectPath": "/home/runner/Arvore-Binaria-Comentada/main.csproj",
+        "projectPath": "/home/runner/Arvore-Binaria-1/main.csproj",
         "packagesPath": "/home/runner/.nuget/packages/",
-        "outputPath": "/home/runner/Arvore-Binaria-Comentada/obj/",
+        "outputPath": "/home/runner/Arvore-Binaria-1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/runner/.nuget/NuGet/NuGet.Config"

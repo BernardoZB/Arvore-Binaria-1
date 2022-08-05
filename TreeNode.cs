@@ -34,7 +34,7 @@ class TreeNode
         // Caso a arvore da esquerda não esteja vazia
         if (sae != null)
         {
-            Console.Write(" SAE: ");
+            
             // Desenha a arvore da esquerda recursivamente
             sae.Print();
         }
@@ -45,7 +45,7 @@ class TreeNode
         // Caso a arvore da direita não esteja vazia
         if (sad != null)
         {
-            Console.Write(" SAD: ");
+            
             // Desenha a arvore da direita recursivamente
             sad.Print();
         }
