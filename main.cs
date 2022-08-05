@@ -1,22 +1,19 @@
-
 using System;
 
-class Program
-{
-    public static void Main(string[] args)
-    {
-        // Cria uma nova arvore começando pela raizuma
-        TreeNode root = new TreeNode(13);
-        // Adiciona valores na arvore
-        root.Add(5);
-        root.Add(15);
-        root.Add(33);
-        root.Add(1);
-        root.Add(3);
-        root.Add(2);
-        root.Add(0);
-        // Desenha a arvore completa
-        root.Print();
+class Program {
+  public static void Main (string[] args) {
 
+    Console.Write("\nAdicione um nó: ");
+    // Cria uma nova arvore começando pela raizuma
+    TreeNode root = new TreeNode(int.Parse(Console.ReadLine()));
+    
+    for(;;) {
+      Console.Clear();
+      // Desenha a arvore completa
+      root.Print();
+      Console.Write("\n\nAdicione um nó: ");
+      // Adiciona valores na arvore
+      root.Add(int.Parse(Console.ReadLine()));
     }
+  }
 }
