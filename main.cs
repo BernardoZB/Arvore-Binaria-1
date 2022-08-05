@@ -17,10 +17,6 @@ class Program
         root.Add(0);
         // Desenha a arvore completa
         root.Print();
-        // Procura se existe um valor
-        Console.WriteLine("\n" + root.Find(2));
-        // Retorna a altura da arvore
-        Console.WriteLine(root.Altura());
 
     }
 }
